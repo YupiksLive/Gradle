@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'ru.netology'
+group 'org.example'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -11,5 +11,4 @@ repositories {
 
 dependencies {
     implementation project(":db")
-    implementation project(":service")
 }
